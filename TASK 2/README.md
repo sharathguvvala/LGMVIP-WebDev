@@ -1,5 +1,12 @@
 # Delopyed at https://first-api-app.vercel.app/
 
+### `Tech Stack`
+* HTML
+* CSS
+* BOOTSTRAP
+* JAVASCRIPT
+* REACT
+* NODE.JS
 
 # Getting Started with Create React App
 
