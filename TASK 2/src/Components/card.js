@@ -4,7 +4,7 @@ const Users = ({loading,users}) => {
           <div id="main">
             <img src="https://flevix.com/wp-content/uploads/2019/07/Ring-Loading-feature.gif" alt="Loading..." className="loader"/>
           </div>
-        ) : 
+        ) :
         (
           <div className='row' id="main">  
           {users.map(user =>
