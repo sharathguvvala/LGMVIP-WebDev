@@ -8,10 +8,10 @@ class App extends Component {
 	this.state = {users_data :[],
                 loading : true                
   }
-	this.updateState = this.updateState.bind(this)
+	this.displayUsers = this.displayUsers.bind(this)
   }
     
-  updateState(){
+  displayUsers(){
       document.getElementById("main").style.display='flex';
       const link="https://reqres.in/api/users?page=1";
       fetch(link)
@@ -32,7 +32,7 @@ class App extends Component {
       <nav className="navbar navbar-expand-lg navbar-light rounded m-3">
           <div className="container-fluid">
             <h3>Zippy</h3>
-            <button onClick={this.updateState}>Get Users</button>
+            <button onClick={this.displayUsers}>Get Users</button>
           </div>
         </nav>
       <Users loading={this.state.loading} users={this.state.users_data}/>

@@ -40,7 +40,7 @@ nav{
   font-family: arial;
   padding: 20px;
   border-radius: 20px;
-  background-color: rgb(209, 207, 207);
+  background: linear-gradient(to right, #d3cce3, #e9e4f0);
 }
 .profile:hover{
   transition:500ms;
