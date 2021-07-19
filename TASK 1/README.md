@@ -1,4 +1,4 @@
-# Delopyed at https://sharathguvvala.github.io/LGMVIP-WebDev/TASK 1/
+# Delopyed at [Link](https://sharathguvvala.github.io/LGMVIP-WebDev/TASK%201/).
 # SINGLE PAGE WEBSITE
 ### `Tech Stack`
 * HTML
