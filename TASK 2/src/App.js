@@ -1,23 +1,17 @@
 import Users from "./Components/card";
 import './App.css';
-
 import React, { Component } from 'react'
 	
 class App extends Component {
   constructor(props){
 	super(props)
-		
-	// Set initial state
 	this.state = {users_data :[],
                 loading : true                
   }
-  
-	// Binding this keyword
 	this.updateState = this.updateState.bind(this)
   }
     
   updateState(){
-      console.log("VT");
       document.getElementById("main").style.display='flex';
       const link="https://reqres.in/api/users?page=1";
       fetch(link)
@@ -27,7 +21,6 @@ class App extends Component {
         this.setState({users_data :users.data,
                         loading: false
         })
-        console.log(users.data);
       })
       .catch((error) => {
         console.error(error)
@@ -36,9 +29,9 @@ class App extends Component {
     
   render(){
     return (<>
-      <nav className="navbar navbar-expand-lg navbar-light">
+      <nav className="navbar navbar-expand-lg navbar-light rounded m-3">
           <div className="container-fluid">
-            <h3>LetsGrowMore</h3>
+            <h3>Zippy</h3>
             <button onClick={this.updateState}>Get Users</button>
           </div>
         </nav>

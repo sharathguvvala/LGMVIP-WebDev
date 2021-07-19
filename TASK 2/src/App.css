@@ -1,54 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Tourney:wght@900&display=swap');
+body{
+  background: linear-gradient(45deg , #fdc830, #f37335);
+}
 button{
   border-radius: 5px;
   border: none;
-  background-color: rgb(134, 6, 134);
-  color: yellow;
+  background-color: rgb(255, 221, 109);
+  color: black;
   padding: 12px;
 }
 button:hover{
   transition: 200ms;
- scale:1.03;
- background-color: rgb(63, 4, 63);
+  transform:scale(1.1);
+}
+button:focus{
+  outline: none;
 }
 nav{
-  color: blue;
+  color: rgb(255, 221, 109);
   background-attachment: fixed;
-  background-color: greenyellow;
+  background-color: #583858;
+}
+.loader{
+  margin: 0 auto;
 }
 .avatar{
-  border-radius: 50%;
+  border-radius: 20px;
+  margin-bottom: 10px;
 }
 #main{
-  padding: 25px 50px;
-  margin-left: auto;
-  margin-right: auto;
-  display:none;
+  padding: 15px 50px;
+  margin: 0 auto;
+  display: none;
 }
 .profile {
-  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
   max-width: 300px;
-  margin: 12px auto;
+  margin: 15px auto;
   text-align: center;
   font-family: arial;
-  padding: 25px;
-  border-radius: 18px;
-  background-color: whitesmoke;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: rgb(209, 207, 207);
 }
 .profile:hover{
-  transition:400ms;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-  transform: translateY(-3px);
-}
-.email {
-  color: grey;
-  font-size: 18px;
-  overflow-wrap: anywhere;
+  transition:500ms;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.6);
 }
 .name{
+  font-family: 'Libre Baskerville', serif;
   font-size:25px;
   font-weight: bold;
 }
-.loader{
-  margin-left: auto;
-  margin-right: auto;
+.email {
+  font-family: 'Tourney', cursive;
+  font-size: 18px;
+  overflow-wrap: break-word;
 }
