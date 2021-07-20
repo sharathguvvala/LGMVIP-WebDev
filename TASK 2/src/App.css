@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Tourney:wght@900&display=swap');
 body{
   background: linear-gradient(45deg , #fdc830, #f37335);
+  background-repeat: no-repeat;
 }
 button{
   border-radius: 5px;
@@ -40,7 +41,7 @@ nav{
   font-family: arial;
   padding: 20px;
   border-radius: 20px;
-  background: linear-gradient(to right, #d3cce3, #e9e4f0);
+  background: linear-gradient(45deg, #d3cce3, #e9e4f0);
 }
 .profile:hover{
   transition:500ms;
