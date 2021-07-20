@@ -2,7 +2,7 @@ import React from 'react'
 const Users = ({loading,users}) => {
     return loading ? (
           <div id="main">
-            <img src="./video-unscreen.gif" alt="Loading..." className="loader"/>
+            <img src="https://flevix.com/wp-content/uploads/2020/01/Bounce-Bar-Preloader-1.gif" alt="Loading..." className="loader"/>
           </div>
         ) :
         (

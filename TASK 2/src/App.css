@@ -34,6 +34,9 @@ nav{
   margin: 0 auto;
   display: none;
 }
+#main img{
+  animation-delay: 5s;
+}
 .profile {
   max-width: 300px;
   margin: 15px auto;
@@ -41,7 +44,7 @@ nav{
   font-family: arial;
   padding: 20px;
   border-radius: 20px;
-  background: linear-gradient(45deg, #d3cce3, #e9e4f0);
+  background: linear-gradient(-45deg , #bdc3c7, #2c3e50);
 }
 .profile:hover{
   transition:500ms;
