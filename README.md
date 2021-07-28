@@ -1,2 +1,2 @@
 # LGMVIP-WebDev
-<p>LetsGrowMore Virtual Internship Programme.</p>
+<p>LetsGrowMore Virtual Internship Program.</p>
